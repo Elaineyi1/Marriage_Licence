@@ -27,7 +27,7 @@ library(palmerpenguins)
 ```
 
 ```{r}
-data_cleaned <- read_csv(file = here("data/data_raw.csv"))
+data_raw <- read_csv(file = here("data/data_raw.csv"))
 ```
 
 ```{r}
